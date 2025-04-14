@@ -15,13 +15,13 @@ const Navbar = () => {
             </button>
         <ul className={`sm:hidden absolute left-0 
            ${open ? 'top-[51px] duration-800':'-top-[200px]'}
-         bg-gray-600 text-white h-[200px] w-[100px] `}>
-            <li className='px-2 hover:bg-amber-500 '>Home</li>
-            <li className='px-2 hover:bg-amber-500 '>Product</li>
-            <li className='px-2 hover:bg-amber-500  '>Services</li>
-            <li className='px-2 hover:bg-amber-500 '>Blogs</li>
-            <li className='px-2 hover:bg-amber-500 '>Blogs</li>
-            <li className='px-2 hover:bg-amber-500 '>About</li>
+         bg-gray-600 text-white  `}>
+            <li className='px-2 py-1 hover:bg-amber-500 cursor-pointer'>Home</li>
+            <li className='px-2 py-1 hover:bg-amber-500 cursor-pointer'>Product</li>
+            <li className='px-2 py-1 hover:bg-amber-500 cursor-pointer '>Services</li>
+            <li className='px-2 py-1 hover:bg-amber-500 cursor-pointer'>Blogs</li>
+            <li className='px-2 py-1 hover:bg-amber-500 cursor-pointer'>Blogs</li>
+            <li className='px-2 py-1 hover:bg-amber-500 cursor-pointer'>About</li>
         </ul>
           <div className='hidden sm:block'>
             <h1 className=' text-[18px] md:text-[22px]'>MyWeb</h1>
